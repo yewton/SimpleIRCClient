@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3F689A81669E7BB00153660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689A71669E7BB00153660 /* UIKit.framework */; };
+		B3F689AA1669E7BB00153660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689A91669E7BB00153660 /* Foundation.framework */; };
+		B3F689AC1669E7BB00153660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689AB1669E7BB00153660 /* CoreGraphics.framework */; };
+		B3F689B21669E7BB00153660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3F689B01669E7BB00153660 /* InfoPlist.strings */; };
+		B3F689B41669E7BB00153660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F689B31669E7BB00153660 /* main.m */; };
+		B3F689B81669E7BB00153660 /* SICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F689B71669E7BB00153660 /* SICAppDelegate.m */; };
+		B3F689BA1669E7BB00153660 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F689B91669E7BB00153660 /* Default.png */; };
+		B3F689BC1669E7BB00153660 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F689BB1669E7BB00153660 /* Default@2x.png */; };
+		B3F689BE1669E7BB00153660 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F689BD1669E7BB00153660 /* Default-568h@2x.png */; };
+		B3F689C11669E7BB00153660 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F689BF1669E7BB00153660 /* MainStoryboard.storyboard */; };
+		B3F689C41669E7BB00153660 /* SICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F689C31669E7BB00153660 /* SICViewController.m */; };
+		B3F689CC1669E7BB00153660 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689CB1669E7BB00153660 /* SenTestingKit.framework */; };
+		B3F689CD1669E7BB00153660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689A71669E7BB00153660 /* UIKit.framework */; };
+		B3F689CE1669E7BB00153660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F689A91669E7BB00153660 /* Foundation.framework */; };
+		B3F689D61669E7BB00153660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3F689D41669E7BB00153660 /* InfoPlist.strings */; };
+		B3F689D91669E7BB00153660 /* SimpleIRCClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F689D81669E7BB00153660 /* SimpleIRCClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3F689CF1669E7BB00153660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F6899A1669E7BB00153660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F689A21669E7BB00153660;
+			remoteInfo = SimpleIRCClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3F689A31669E7BB00153660 /* SimpleIRCClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleIRCClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F689A71669E7BB00153660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3F689A91669E7BB00153660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3F689AB1669E7BB00153660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3F689AF1669E7BB00153660 /* SimpleIRCClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleIRCClient-Info.plist"; sourceTree = "<group>"; };
+		B3F689B11669E7BB00153660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3F689B31669E7BB00153660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F689B51669E7BB00153660 /* SimpleIRCClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleIRCClient-Prefix.pch"; sourceTree = "<group>"; };
+		B3F689B61669E7BB00153660 /* SICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SICAppDelegate.h; sourceTree = "<group>"; };
+		B3F689B71669E7BB00153660 /* SICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SICAppDelegate.m; sourceTree = "<group>"; };
+		B3F689B91669E7BB00153660 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3F689BB1669E7BB00153660 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3F689BD1669E7BB00153660 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3F689C01669E7BB00153660 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B3F689C21669E7BB00153660 /* SICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SICViewController.h; sourceTree = "<group>"; };
+		B3F689C31669E7BB00153660 /* SICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SICViewController.m; sourceTree = "<group>"; };
+		B3F689CA1669E7BB00153660 /* SimpleIRCClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleIRCClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F689CB1669E7BB00153660 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3F689D31669E7BB00153660 /* SimpleIRCClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleIRCClientTests-Info.plist"; sourceTree = "<group>"; };
+		B3F689D51669E7BB00153660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3F689D71669E7BB00153660 /* SimpleIRCClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleIRCClientTests.h; sourceTree = "<group>"; };
+		B3F689D81669E7BB00153660 /* SimpleIRCClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleIRCClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3F689A01669E7BB00153660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689A81669E7BB00153660 /* UIKit.framework in Frameworks */,
+				B3F689AA1669E7BB00153660 /* Foundation.framework in Frameworks */,
+				B3F689AC1669E7BB00153660 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F689C61669E7BB00153660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689CC1669E7BB00153660 /* SenTestingKit.framework in Frameworks */,
+				B3F689CD1669E7BB00153660 /* UIKit.framework in Frameworks */,
+				B3F689CE1669E7BB00153660 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3F689981669E7BB00153660 = {
+			isa = PBXGroup;
+			children = (
+				B3F689AD1669E7BB00153660 /* SimpleIRCClient */,
+				B3F689D11669E7BB00153660 /* SimpleIRCClientTests */,
+				B3F689A61669E7BB00153660 /* Frameworks */,
+				B3F689A41669E7BB00153660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F689A41669E7BB00153660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689A31669E7BB00153660 /* SimpleIRCClient.app */,
+				B3F689CA1669E7BB00153660 /* SimpleIRCClientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F689A61669E7BB00153660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689A71669E7BB00153660 /* UIKit.framework */,
+				B3F689A91669E7BB00153660 /* Foundation.framework */,
+				B3F689AB1669E7BB00153660 /* CoreGraphics.framework */,
+				B3F689CB1669E7BB00153660 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3F689AD1669E7BB00153660 /* SimpleIRCClient */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689B61669E7BB00153660 /* SICAppDelegate.h */,
+				B3F689B71669E7BB00153660 /* SICAppDelegate.m */,
+				B3F689BF1669E7BB00153660 /* MainStoryboard.storyboard */,
+				B3F689C21669E7BB00153660 /* SICViewController.h */,
+				B3F689C31669E7BB00153660 /* SICViewController.m */,
+				B3F689AE1669E7BB00153660 /* Supporting Files */,
+			);
+			path = SimpleIRCClient;
+			sourceTree = "<group>";
+		};
+		B3F689AE1669E7BB00153660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689AF1669E7BB00153660 /* SimpleIRCClient-Info.plist */,
+				B3F689B01669E7BB00153660 /* InfoPlist.strings */,
+				B3F689B31669E7BB00153660 /* main.m */,
+				B3F689B51669E7BB00153660 /* SimpleIRCClient-Prefix.pch */,
+				B3F689B91669E7BB00153660 /* Default.png */,
+				B3F689BB1669E7BB00153660 /* Default@2x.png */,
+				B3F689BD1669E7BB00153660 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3F689D11669E7BB00153660 /* SimpleIRCClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689D71669E7BB00153660 /* SimpleIRCClientTests.h */,
+				B3F689D81669E7BB00153660 /* SimpleIRCClientTests.m */,
+				B3F689D21669E7BB00153660 /* Supporting Files */,
+			);
+			path = SimpleIRCClientTests;
+			sourceTree = "<group>";
+		};
+		B3F689D21669E7BB00153660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F689D31669E7BB00153660 /* SimpleIRCClientTests-Info.plist */,
+				B3F689D41669E7BB00153660 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3F689A21669E7BB00153660 /* SimpleIRCClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F689DC1669E7BB00153660 /* Build configuration list for PBXNativeTarget "SimpleIRCClient" */;
+			buildPhases = (
+				B3F6899F1669E7BB00153660 /* Sources */,
+				B3F689A01669E7BB00153660 /* Frameworks */,
+				B3F689A11669E7BB00153660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleIRCClient;
+			productName = SimpleIRCClient;
+			productReference = B3F689A31669E7BB00153660 /* SimpleIRCClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3F689C91669E7BB00153660 /* SimpleIRCClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F689DF1669E7BB00153660 /* Build configuration list for PBXNativeTarget "SimpleIRCClientTests" */;
+			buildPhases = (
+				B3F689C51669E7BB00153660 /* Sources */,
+				B3F689C61669E7BB00153660 /* Frameworks */,
+				B3F689C71669E7BB00153660 /* Resources */,
+				B3F689C81669E7BB00153660 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F689D01669E7BB00153660 /* PBXTargetDependency */,
+			);
+			name = SimpleIRCClientTests;
+			productName = SimpleIRCClientTests;
+			productReference = B3F689CA1669E7BB00153660 /* SimpleIRCClientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3F6899A1669E7BB00153660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SIC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yewton;
+			};
+			buildConfigurationList = B3F6899D1669E7BB00153660 /* Build configuration list for PBXProject "SimpleIRCClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3F689981669E7BB00153660;
+			productRefGroup = B3F689A41669E7BB00153660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F689A21669E7BB00153660 /* SimpleIRCClient */,
+				B3F689C91669E7BB00153660 /* SimpleIRCClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3F689A11669E7BB00153660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689B21669E7BB00153660 /* InfoPlist.strings in Resources */,
+				B3F689BA1669E7BB00153660 /* Default.png in Resources */,
+				B3F689BC1669E7BB00153660 /* Default@2x.png in Resources */,
+				B3F689BE1669E7BB00153660 /* Default-568h@2x.png in Resources */,
+				B3F689C11669E7BB00153660 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F689C71669E7BB00153660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689D61669E7BB00153660 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3F689C81669E7BB00153660 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3F6899F1669E7BB00153660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689B41669E7BB00153660 /* main.m in Sources */,
+				B3F689B81669E7BB00153660 /* SICAppDelegate.m in Sources */,
+				B3F689C41669E7BB00153660 /* SICViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F689C51669E7BB00153660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F689D91669E7BB00153660 /* SimpleIRCClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3F689D01669E7BB00153660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3F689A21669E7BB00153660 /* SimpleIRCClient */;
+			targetProxy = B3F689CF1669E7BB00153660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3F689B01669E7BB00153660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F689B11669E7BB00153660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3F689BF1669E7BB00153660 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F689C01669E7BB00153660 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B3F689D41669E7BB00153660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F689D51669E7BB00153660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3F689DA1669E7BB00153660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B3F689DB1669E7BB00153660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F689DD1669E7BB00153660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleIRCClient/SimpleIRCClient-Prefix.pch";
+				INFOPLIST_FILE = "SimpleIRCClient/SimpleIRCClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3F689DE1669E7BB00153660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleIRCClient/SimpleIRCClient-Prefix.pch";
+				INFOPLIST_FILE = "SimpleIRCClient/SimpleIRCClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3F689E01669E7BB00153660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleIRCClient.app/SimpleIRCClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleIRCClient/SimpleIRCClient-Prefix.pch";
+				INFOPLIST_FILE = "SimpleIRCClientTests/SimpleIRCClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3F689E11669E7BB00153660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleIRCClient.app/SimpleIRCClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleIRCClient/SimpleIRCClient-Prefix.pch";
+				INFOPLIST_FILE = "SimpleIRCClientTests/SimpleIRCClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3F6899D1669E7BB00153660 /* Build configuration list for PBXProject "SimpleIRCClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F689DA1669E7BB00153660 /* Debug */,
+				B3F689DB1669E7BB00153660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F689DC1669E7BB00153660 /* Build configuration list for PBXNativeTarget "SimpleIRCClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F689DD1669E7BB00153660 /* Debug */,
+				B3F689DE1669E7BB00153660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3F689DF1669E7BB00153660 /* Build configuration list for PBXNativeTarget "SimpleIRCClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F689E01669E7BB00153660 /* Debug */,
+				B3F689E11669E7BB00153660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3F6899A1669E7BB00153660 /* Project object */;
+}
