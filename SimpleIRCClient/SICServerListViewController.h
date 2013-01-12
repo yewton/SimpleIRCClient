@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SICViewController : UIViewController
+@class SICServerDataController;
 
+@interface SICServerListViewController : UITableViewController
+@property (strong, nonatomic) SICServerDataController *dataController;
 @end

@@ -7,12 +7,20 @@
 //
 
 #import "SICAppDelegate.h"
+#import "SICServerListViewController.h"
+#import "SICServerDataController.h"
 
 @implementation SICAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    SICServerListViewController *firstViewController = (SICServerListViewController *)[[navigationController viewControllers] objectAtIndex:0];
+    
+    SICServerDataController *aDataController = [[SICServerDataController alloc] init];
+
+    firstViewController.dataController = aDataController;
     return YES;
 }
 							
